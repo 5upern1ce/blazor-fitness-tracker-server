@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("blazor-fitness-tracker-server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39d1ef44b60719cbe45b8e7fa65d1f365ed0d674")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4244710ed2fe106bbe52b49f42013f77c498c3ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("blazor-fitness-tracker-server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("blazor-fitness-tracker-server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
