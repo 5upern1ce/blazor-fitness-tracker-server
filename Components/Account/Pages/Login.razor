@@ -21,15 +21,14 @@
             <EditForm class="flex flex-col items-stretch justify-center" Model="Input" method="post" OnValidSubmit="LoginUser" FormName="login">
                 <DataAnnotationsValidator />
                 <h2 class="text-center p-3 text-lime-600">Use a local account to log in.</h2>
-                <hr />
                 <ValidationSummary class="text-danger" role="alert" />
                 <div class="form-floating mb-3">
-                    <InputText @bind-Value="Input.Email" id="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                    <InputText @bind-Value="Input.Email" id="Input.Email" class="form-control focus:ring-green-500 focus:shadow-[0_0_0.1rem_white,0_0_0.5rem] focus:shadow-lime-600" autocomplete="username" aria-required="true" placeholder="name@example.com" />
                     <label for="Input.Email" class="form-label">Email</label>
                     <ValidationMessage For="() => Input.Email" class="text-danger" />
                 </div>
                 <div class="form-floating mb-3">
-                    <InputText type="password" @bind-Value="Input.Password" id="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+                    <InputText type="password" @bind-Value="Input.Password" id="Input.Password" class="form-control focus:ring-green-500 focus:shadow-[0_0_0.1rem_white,0_0_0.5rem] focus:shadow-lime-600" autocomplete="current-password" aria-required="true" placeholder="password" />
                     <label for="Input.Password" class="form-label">Password</label>
                     <ValidationMessage For="() => Input.Password" class="text-danger" />
                     <p class="pb-2 text-center pt-3 ">
